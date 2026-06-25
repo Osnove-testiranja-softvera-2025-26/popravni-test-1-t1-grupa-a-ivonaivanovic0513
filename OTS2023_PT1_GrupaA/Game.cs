@@ -2,6 +2,7 @@
 
 using OTS2026_PT1_GrupaA.Exceptions;
 using OTS2026_PT1_GrupaA.Models;
+using System;
 
 namespace OTS2026_PT1_GrupaA
 {
@@ -134,5 +135,13 @@ namespace OTS2026_PT1_GrupaA
             }
             return Score.Bad;
         }
+
+        public object CalculateScore()
+        {
+            throw new NotImplementedException();
+        }
+
+
+
     }
-}
+    }

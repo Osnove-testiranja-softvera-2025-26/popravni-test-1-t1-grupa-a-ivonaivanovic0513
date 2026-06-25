@@ -16,6 +16,8 @@ namespace OTS2026_PT1_GrupaA.Models
         public int AmountOfFish { get; set; }
 
         public bool HasBoat { get; set; }
+        public object BaitCount { get; set; }
+        public int FishCount { get; set; }
 
         public Player()
         {

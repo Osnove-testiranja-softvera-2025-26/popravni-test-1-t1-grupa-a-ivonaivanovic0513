@@ -1,0 +1,19 @@
+F1 – Inicijalizacija igre
+PlayerStartZone: Land, Pond, Invalid
+BoatPositionZone: Land, Pond, Invalid
+
+ F2 – Validacija pozicije
+HasBoat: Yes, No
+TargetZone: Land, Pond, Invalid
+
+ F3 – ResolvePlayerPosition
+TileContent: Empty, Bait, Boat, Fish
+HasBoat:  Yes , No
+HasBait:  Yes , No
+Zone: Land, Pond
+
+ F4 – CalculateScore
+FishCount: 0, 6, 12, 13
+BaitCount: 0, 9, 10
+HasBoat: Yes, No
+VisitedPond: Yes, No
